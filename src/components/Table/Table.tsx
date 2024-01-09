@@ -42,7 +42,7 @@ export const Table = ({
 }: { headers: ITableHeader[] } & ITableRow) => {
   return (
     <>
-      <div className='table-wrap block max-h-48 my-3'>
+      <div className='table-wrap block max-h-48 my-3 shadow'>
         <table className='border w-full sticky top-0'>
           <thead>
             <tr
