@@ -42,11 +42,11 @@ export const Table = ({
 }: { headers: ITableHeader[] } & ITableRow) => {
   return (
     <>
-      <div className='table-wrap block max-h-48 my-3 shadow'>
-        <table className='border w-full sticky top-0'>
+      <div className='table-wrap block max-h-48 my-3'>
+        <table className='w-full sticky top-0 rounded-md border-0'>
           <thead>
             <tr
-              className={`bg-gray-100 grid p-2`}
+              className={`bg-gray-100 grid p-2 rounded`}
               style={{ gridTemplateColumns: `repeat(${headers.length},1fr)` }}>
               {headers.map(header =>
                 header.tooltip ? (

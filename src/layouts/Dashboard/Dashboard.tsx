@@ -87,7 +87,7 @@ export const Dashboard = () => {
         <h2 className='m-0 text-lg font-medium'>Transactions | This Month</h2>
       </div>
 
-      <div className='border rounded-md bg-white mx-6 p-2 h-auto mb-2'>
+      <div className='rounded-md bg-white mx-6 p-2 h-auto mb-2'>
         <div className='flex items-center justify-between'>
           <Input
             placeholder='Search by order ID...'
