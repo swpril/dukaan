@@ -4,7 +4,7 @@ import {
   UnfoldMoreRounded
 } from '@mui/icons-material';
 
-import { NavBar } from '../../components/NavBar/NavBar';
+import { NavBar } from '../NavBar/NavBar';
 import { Card } from '../../components/Card/Card';
 import { Input } from '../../components/Input/Input';
 import { ITableHeader, Table } from '../../components/Table/Table';
